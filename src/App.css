@@ -59,6 +59,15 @@ nav ul li a:hover {
 }
 
 .dark-mode-toggle {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-mode-toggle {
   background-color: #ffffff;
   color: #fff;
   border: none;

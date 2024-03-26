@@ -22,14 +22,14 @@ function Navbar() {
       </div>
       <nav>
         <ul>
-          <li><Link to="/" className={darkMode ? 'lidark' : 'liclear'}>Home</Link></li>
+          <li><Link to="/"  className={darkMode ? 'lidark' : 'liclear'}>Home</Link></li>
           <li><Link to="/sobre" className={darkMode ? 'lidark' : 'liclear'}>Sobre</Link></li>
           <li><Link to="/servicos" className={darkMode ? 'lidark' : 'liclear'}>Serviços</Link></li>
           <li><Link to="/contratos" className={darkMode ? 'lidark' : 'liclear'}>Contratos</Link></li>
         </ul>
       </nav>
       <button className={darkMode ? 'dark-mode-toggle' : 'clear-mode-toggle'} onClick={toggleDarkMode}>
-        {darkMode ? '☀️' : '🌙'} {/* Usando emojis como ícones */}
+        {darkMode ? '🌞' : '🌜'} {/* Usando emojis como ícones estilizados */}
       </button>
     </header>
   );

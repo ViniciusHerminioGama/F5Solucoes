@@ -4,7 +4,7 @@ import React from 'react';
 function WhatsAppButton() {
   const handleWhatsAppClick = () => {
     // Redirecionar para o WhatsApp
-    window.location.href = 'https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE';
+    window.location.href = 'https://api.whatsapp.com/send?phone=8738358310';
   };
 
   return (

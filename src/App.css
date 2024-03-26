@@ -93,6 +93,45 @@ nav ul li a:hover {
   color: rgb(41, 40, 40);
 }
 
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366; /* Cor do botão do WhatsApp */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: shake 0.5s infinite alternate; /* Animação de vibração */
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e; /* Cor do botão do WhatsApp ao passar o mouse */
+  animation: none; /* Remover a animação ao passar o mouse */
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url('./images/whatsapp-icon.png'); /* Adicione o ícone do WhatsApp */
+  background-size: cover;
+  margin-right: 5px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
 @media only screen and (max-width: 600px) {
   header {
     flex-direction: column;

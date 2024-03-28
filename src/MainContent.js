@@ -1,11 +1,14 @@
 // MainContent.js
 import React from 'react';
+import Banner from './images/bannerSite.png'
+import './App.css';
 
 function MainContent() {
   return (
-    <div className="main-content">
-      <h2>Bem-vindo à F5 Soluções</h2>
-      <p>Aqui você pode encontrar informações sobre nossos serviços e consultar nossos contratos disponíveis.</p>
+    <div>
+    <div>
+      <img src={Banner} alt='bannerSite' className='bannerSite'></img>
+    </div>
     </div>
   );
 }

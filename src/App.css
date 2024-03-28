@@ -124,6 +124,10 @@ nav ul li a:hover {
   margin-right: 5px;
 }
 
+.bannerSite {
+  width: 100%;
+}
+
 @keyframes shake {
   0% {
     transform: translateY(0);

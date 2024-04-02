@@ -96,9 +96,10 @@ nav ul li a:hover {
 
 .whatsapp-button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366; /* Cor do botão do WhatsApp */
+  bottom: 20px; /* Ajuste para centralizar verticalmente */
+  left: 43.2%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  background-color: #25d366;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -111,10 +112,18 @@ nav ul li a:hover {
   animation: shake 0.5s infinite alternate; /* Animação de vibração */
 }
 
+/* Remover a animação quando o botão está em estado de hover */
 .whatsapp-button:hover {
-  background-color: #128c7e; /* Cor do botão do WhatsApp ao passar o mouse */
-  animation: none; /* Remover a animação ao passar o mouse */
+  position: fixed;
+  bottom: 20px; /* Ajuste para centralizar verticalmente */
+  left: 43.2%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: shake 0.5s infinite alternate; /* Animação de vibração */
 }
+
 
 .whatsapp-icon {
   width: 24px;

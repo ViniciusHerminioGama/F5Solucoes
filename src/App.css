@@ -190,4 +190,27 @@ nav ul li a:hover {
   nav ul li {
     margin: 5px 0;
   }
+
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    left: 16%;
+    transform: translateX(-50%);
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: shake 0.5s infinite alternate;
+  }
+
+  /* Adicionando estilos para os links dos contratos em dispositivos móveis */
+  .main-content a {
+    width: auto;
+  }
 }

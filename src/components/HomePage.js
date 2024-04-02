@@ -1,10 +1,19 @@
 import React from 'react';
+import contrato1 from '../Contracts/CONTRATO01.pdf';
+import contrato2 from '../Contracts/CONTRATO02.pdf';
+import contrato3 from '../Contracts/CONTRATO03.pdf';
 
 function HomePage() {
   return (
-    <div className="about-container">
-      <h2>Home</h2>
-      <p>Aqui estão a página principal.</p>
+    <div className="main-content">
+      <h2>Contratos</h2>
+      <div>
+        <a href={contrato1} target="_blank" rel="noopener noreferrer">Contrato 1</a>
+        <br />
+        <a href={contrato2} target="_blank" rel="noopener noreferrer">Contrato 2</a>
+        <br />
+        <a href={contrato3} target="_blank" rel="noopener noreferrer">Contrato 3</a>
+      </div>
     </div>
   );
 }

@@ -128,6 +128,32 @@ nav ul li a:hover {
   width: 100%;
 }
 
+/* App.css */
+
+/* Adicionando estilos para os links dos contratos */
+.main-content a {
+  display: block; /* Alterado de inline-block para block */
+  width: 200px; /* Largura dos botões */
+  margin: 10px auto; /* Margem automática para centralizar os botões */
+  padding: 15px 20px; /* Espaçamento interno dos botões */
+  background-color: #0b121a; /* Cor de fundo dos links */
+  color: #fff; /* Cor do texto dos links */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center; /* Centralizar texto dentro dos botões */
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para os links dos contratos quando o mouse passa por cima */
+.main-content a:hover {
+  background-color: #ec3939; /* Cor de fundo dos links ao passar o mo*/
+}
+
+
+
+
+
 @keyframes shake {
   0% {
     transform: translateY(0);

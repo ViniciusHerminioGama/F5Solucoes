@@ -8,11 +8,11 @@ function HomePage() {
     <div className="main-content">
       <h2>Contratos</h2>
       <div>
-        <a href={contrato1} target="_blank" rel="noopener noreferrer">Contrato 1</a>
+        <a href={contrato1} target="_blank" rel="noopener noreferrer">Contrato de Prestação de Serviços de Telecomunicações</a>
         <br />
-        <a href={contrato2} target="_blank" rel="noopener noreferrer">Contrato 2</a>
+        <a href={contrato2} target="_blank" rel="noopener noreferrer">Contrato de Comodato de Equipamentos</a>
         <br />
-        <a href={contrato3} target="_blank" rel="noopener noreferrer">Contrato 3</a>
+        <a href={contrato3} target="_blank" rel="noopener noreferrer">Contrato de Prestação de Serviços de Valor Adicionado</a>
       </div>
     </div>
   );
